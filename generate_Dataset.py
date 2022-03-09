@@ -184,7 +184,7 @@ class Game(arcade.Window):
             
     def on_key_release(self, key, modifires):
         if key == arcade.key.ESCAPE:
-            self.game_over.exit_game()
+            self.game_over.exit_Game()
 
 class GameOver(arcade.View):
     def __init__(self, w, h):
